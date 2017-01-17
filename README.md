@@ -25,7 +25,7 @@ The second **.ToArmenian()** ethod allows you to convert latin letters into arme
 'ph' -> 'փ' </br>
 'ev' -> 'և' etc</br> 
 ## In command window the result is:
-![result](https://github.com/marysahakyan/ExtensionsForString/blob/master/mygif.gif)
+![result](https://github.com/marysahakyan/ExtensionsForString/blob/master/toarm.gif)
 ##Here are trial code
 ```cs
 using System;
