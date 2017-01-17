@@ -17,7 +17,7 @@ namespace Program
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine(str.ReplaceEmoticons());
 
-            Console.WriteLine("Մուտքագրեք լատինատառ տեքստը");
+            Console.WriteLine("Input latin text!");
             str=Console.ReadLine();
             Console.WriteLine(str.ToArenian());
 

@@ -84,6 +84,7 @@ namespace ExtensionsForString
 
         public static string ToArenian(this string str)
         {
+            str = str.ToLower();
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             dictionary.Add("a", "ա");
             dictionary.Add("b", "բ");
