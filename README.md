@@ -1,1 +1,1 @@
-# ExtentionsForString
+# ExtensionsForString
