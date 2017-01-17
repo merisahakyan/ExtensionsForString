@@ -11,8 +11,8 @@ namespace Program
     {
         static void Main(string[] args)
         {
-
-            string str = "Hiii :smile: :cloud: :bad: :sun: :moon: :heart: :->: :<-: :sun: :sun: :heart:";
+            Console.WriteLine("Input the text!");
+            string str = Console.ReadLine();
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine(str.ReplaceEmoticons());

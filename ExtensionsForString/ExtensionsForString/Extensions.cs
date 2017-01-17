@@ -8,7 +8,7 @@ namespace ExtensionsForString
 {
     public static class Extensions
     {
-        static bool IsContains(string str)
+        public static bool IsContains(string str)
         {
             if (str.Contains(":smile:") || str.Contains(":cloud:") || str.Contains(":umberella:") || str.Contains(":bad:")
            || str.Contains(":sun:") || str.Contains(":moon:") || str.Contains(":heart:") || str.Contains(":->:") || str.Contains(":<-:"))
@@ -80,6 +80,11 @@ namespace ExtensionsForString
             }
             return str;
 
+        }
+
+        public static string ToArenian(this string str)
+        {
+            
         }
     }
 }
