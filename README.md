@@ -1,5 +1,5 @@
 # Extension Methods For String
-The class library ExtensionsForStrings containd extension methods **.ReplaceEmoticons()**,**.ToArmenian()**.
+The class library ExtensionsForStrings contains extension methods **.ReplaceEmoticons()**,**.ToArmenian()**.
 The first **.ReplaceEmoticons()** method allows you to replace codes with emoticons like this: </br>
 : smile: -> :smile: </br>
 :umberella: -> :closed_umbrella: </br>
@@ -14,7 +14,7 @@ The first **.ReplaceEmoticons()** method allows you to replace codes with emotic
 ## In command window the result is:
 ![result](https://github.com/marysahakyan/ExtensionsForString/blob/master/mygif.gif)
 
-The second **.ToArmenian()** ethod allows you to convert latin letters into armenian.Examples for easy orienting:</br>
+The second **.ToArmenian()** method allows you to convert latin letters into armenian.Examples for easy orienting:</br>
 'kh' -> 'խ' </br>
 'ts' -> 'ծ' </br>
 'dz' -> 'ձ' </br>
