@@ -18,7 +18,7 @@ namespace Program
             Console.WriteLine(str.ReplaceEmoticons());
 
             Console.WriteLine("Մուտքագրեք լատինատառ տեքստը");
-            string str=Console.ReadLine();
+            str=Console.ReadLine();
             Console.WriteLine(str.ToArenian());
 
 
