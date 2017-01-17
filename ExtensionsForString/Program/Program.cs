@@ -11,11 +11,11 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Input the text!");
-            //string str = Console.ReadLine();
+            Console.WriteLine("Input the text!");
+            string str = Console.ReadLine();
 
-            //Console.OutputEncoding = System.Text.Encoding.UTF8;
-            //Console.WriteLine(str.ReplaceEmoticons());
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine(str.ReplaceEmoticons());
 
             Console.WriteLine("Մուտքագրեք լատինատառ տեքստը");
             string str=Console.ReadLine();
