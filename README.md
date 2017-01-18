@@ -1,5 +1,5 @@
 # Extension Methods For String
-The class library ExtensionsForStrings contains extension methods **.ReplaceEmoticons()**,**.ToArmenian()**.
+The class library ExtensionsForStrings contains extension methods **.ReplaceEmoticons()**,**.ToArmenian()**,**.IsPalindroe()**.</br>
 The first **.ReplaceEmoticons()** method allows you to replace codes with emoticons like this: </br>
 : smile: -> :smile: </br>
 :umberella: -> :closed_umbrella: </br>
