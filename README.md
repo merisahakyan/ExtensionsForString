@@ -26,6 +26,7 @@ The second **.ToArmenian()** method allows you to convert latin letters into arm
 'ev' -> 'և' etc</br> 
 ## In command window the result is:
 ![result](https://github.com/marysahakyan/ExtensionsForString/blob/master/toarm.gif)
+And the last **IsPalindrome()** method returns true if the line is palindrome.
 ##Here are trial code
 ```cs
 using System;
@@ -36,15 +37,18 @@ namespace Program
     {
         static void Main(string[] args)
         {      
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            
             Console.WriteLine("Input the text!");
             string str = Console.ReadLine();
+
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine(str.ReplaceEmoticons());
-            
+
             Console.WriteLine("Input latin text!");
-            str=Console.ReadLine();
+            str =Console.ReadLine();
             Console.WriteLine(str.ToArenian());
+
+            str = Console.ReadLine();
+            Console.WriteLine(str.IsPalindrome());
         }
     }
 }
