@@ -17,6 +17,16 @@ namespace ExtensionsForString
             else
                 return false;
         }
+        public static bool IsPalindrome(this string str)
+        { bool t = true;
+            for(int i=0;i<str.Length/2;i++)
+                if(str[i]!=str[str.Length-i-1])
+                {
+                    t = false;
+                    break;
+                }
+            return t;
+        }
         public static string ReplaceEmoticons(this string str)
         {
             int index;
@@ -121,6 +131,7 @@ namespace ExtensionsForString
             dictionary.Add("q", "ք");
             dictionary.Add("ev", "և");
             dictionary.Add("f", "ֆ");
+            dictionary.Add("vo", "ո");
             dictionary.Add(" ", " ");
             dictionary.Add(":", ":");
             string result = String.Empty;
@@ -188,6 +199,14 @@ namespace ExtensionsForString
                     continue;
                     
                 }
+                if (str[i] == 'v' && str[i + 1] == 'o' && i == 0)
+                {
+                    result += dictionary["vo"];
+                    i += 2;
+                    continue;
+
+                }
+
                 result += dictionary[str[i].ToString()];
                 i++;
             }

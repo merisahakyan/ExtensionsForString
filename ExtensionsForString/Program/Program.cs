@@ -14,8 +14,10 @@ namespace Program
             Console.WriteLine(str.ReplaceEmoticons());
 
             Console.WriteLine("Input latin text!");
-            str=Console.ReadLine();
+            str =Console.ReadLine();
             Console.WriteLine(str.ToArenian());
+            
+            Console.WriteLine(str.IsPalindrome());
 
 
         }
