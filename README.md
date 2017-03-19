@@ -26,8 +26,9 @@ The second **.ToArmenian()** method allows you to convert latin letters into arm
 'ev' -> 'և' etc</br> 
 ## In command window the result is:
 ![result](https://github.com/marysahakyan/ExtensionsForString/blob/master/toarm.gif)</br>
-And the last **IsPalindrome()** method returns true if the line is palindrome.
-##Here are trial code
+And the last **IsPalindrome()** method returns true if the line is palindrome.</br>
+
+Here are trial code
 ```cs
 using System;
 using ExtensionsForString;
